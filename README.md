@@ -1,6 +1,6 @@
 <div align="center">
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Pranav-Jadhav09/disneyPlus-UIclone)
+![GitHub repo size](https://img.shields.io/github/repo-size/Pranav-Jadhav09/Disney-Plus-UIclone)
 [![Twitter Follow](https://img.shields.io/twitter/follow/Pranav_Jadhav09?style=social)](https://twitter.com/Pranav_Jadhav09)
 
 # Disney+ UI Clone
