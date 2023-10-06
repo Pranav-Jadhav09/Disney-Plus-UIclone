@@ -6,7 +6,7 @@
 # Disney+ UI Clone
 
 This project is a simple UI clone of Disney+ Website built using HTML, CSS and JavaScript<br />
-<a href="https://disney-plus-site-uiclone.onrender.com/"><strong>➥ Live Demo</strong></a>
+<a href="https://disney-plus-site-uiclone.onrender.com"><strong>➥ Live Demo</strong></a>
 
 </div>
 
