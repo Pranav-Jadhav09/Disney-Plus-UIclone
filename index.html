@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disney+ Clone</title>
+
+    <!-- === Style === -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- == Navbar == -->
+    <nav class="navbar">
+      <img src="./assets/images/logo.png" class="nav-logo" alt="disney-logo" />
+
+      <ul class="nav-links">
+        <li class="nav-items"><a href="#">TV</a></li>
+        <li class="nav-items"><a href="#">Movies</a></li>
+        <li class="nav-items"><a href="#">Sports</a></li>
+        <li class="nav-items"><a href="#">Premium</a></li>
+      </ul>
+
+      <div class="right-container">
+        <input type="text" placeholder="Search" class="search-box" />
+        <button class="search-btn">Search</button>
+        <a href="#" class="login-btn">Login</a>
+      </div>
+    </nav>
+
+    <!-- == Carousel == -->
+    <div class="carousel-container">
+      <div class="carousel">
+        <!-- <div class="slider">
+          <div class="slide-content">
+            <h2 class="movie-title">Loki</h2>
+            <p class="movie-desc">
+              Loki is an American television series created by Michael Waldron
+              for the streaming service Disney.
+            </p>
+          </div>
+          <img
+            src="./assets/images/slider 1.PNG"
+            alt="poster"
+            class="card-img"
+          />
+        </div> -->
+      </div>
+    </div>
+
+    <!-- == Video Cards == -->
+    <div class="video-card-container">
+      <div class="video-card">
+        <img
+          src="./assets/images/disney.PNG"
+          alt="disney-logo"
+          class="video-card-image"
+        />
+        <video
+          src="./assets/videos/disney.mp4"
+          muted
+          loop
+          class="card-video"
+        ></video>
+      </div>
+      <div class="video-card">
+        <img
+          src="./assets/images/pixar.PNG"
+          class="video-card-image"
+          alt="pixer logo"
+        />
+        <video
+          src="./assets/videos/pixar.mp4"
+          muted
+          loop
+          class="card-video"
+        ></video>
+      </div>
+      <div class="video-card">
+        <img
+          src="./assets/images/marvel.PNG"
+          class="video-card-image"
+          alt="marvel logo"
+        />
+        <video
+          src="./assets/videos/marvel.mp4"
+          muted
+          loop
+          class="card-video"
+        ></video>
+      </div>
+      <div class="video-card">
+        <img
+          src="./assets/images/star-wars.PNG"
+          class="video-card-image"
+          alt="Star Wars logo"
+        />
+        <video
+          src="./assets/videos/star-war.mp4"
+          muted
+          loop
+          class="card-video"
+        ></video>
+      </div>
+      <div class="video-card">
+        <img
+          src="./assets/images/geographic.PNG"
+          class="video-card-image"
+          alt="geographic logo"
+        />
+        <video
+          src="./assets/videos/geographic.mp4"
+          muted
+          loop
+          class="card-video"
+        ></video>
+      </div>
+    </div>
+
+    <!-- == Movies == -->
+    <h1 class="title">recommended for you</h1>
+    <div class="movies-list">
+      <button class="pre-btn">
+        <img src="/assets/images/pre.png" alt="previous-icon" />
+      </button>
+
+      <button class="nxt-btn">
+        <img src="./assets/images/nxt.png" alt="next-icon" />
+      </button>
+
+      <div class="card-container">
+        <div class="card">
+          <img
+            src="./assets/images/poster 1.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Loki</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 2.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Mulan</h2>
+            <h6 class="des">Mulan: Courage, Honor, Warrior's Journey.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 3.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Falcon Soldier</h2>
+            <h6 class="des">Superheros unite to battle villians</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 4.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">End Game</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 5.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">RagNarok</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 6.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Civil War</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 7.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Pirates</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 8.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Soul</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 9.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Rava</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 10.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Luca</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Popular Shows -->
+    <h1 class="title">Popular Shows</h1>
+    <div class="movies-list">
+      <button class="pre-btn">
+        <img src="/assets/images/pre.png" alt="previous-icon" />
+      </button>
+
+      <button class="nxt-btn">
+        <img src="./assets/images/nxt.png" alt="next-icon" />
+      </button>
+
+      <div class="card-container">
+        <div class="card">
+          <img
+            src="./assets/images/poster 11.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Ferrari</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 6.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Civil War</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 7.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Pirates</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 12.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Dark</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 10.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Luca</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 4.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">End Game</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 2.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Mulan</h2>
+            <h6 class="des">Mulan: Courage, Honor, Warrior's Journey.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 3.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Falcon Soldier</h2>
+            <h6 class="des">Superheros unite to battle villians</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 9.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Rava</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 5.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">RagNarok</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- New Releases -->
+    <h1 class="title">New Realeses</h1>
+    <div class="movies-list">
+      <button class="pre-btn">
+        <img src="/assets/images/pre.png" alt="previous-icon" />
+      </button>
+
+      <button class="nxt-btn">
+        <img src="./assets/images/nxt.png" alt="next-icon" />
+      </button>
+
+      <div class="card-container">
+        <div class="card">
+          <img
+            src="./assets/images/poster 12.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Dark</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 10.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Luca</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 4.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">End Game</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 11.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Ferrari</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 6.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Civil War</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 3.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Falcon Soldier</h2>
+            <h6 class="des">Superheros unite to battle villians</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 9.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Rava</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 7.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Pirates</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 2.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">Mulan</h2>
+            <h6 class="des">Mulan: Courage, Honor, Warrior's Journey.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img
+            src="./assets/images/poster 5.png"
+            alt="poster"
+            class="card-img"
+          />
+
+          <div class="card-body">
+            <h2 class="name">RagNarok</h2>
+            <h6 class="des">"Loki" challenges reality with time travel.</h6>
+
+            <button class="watch-list-btn">add to watchlist</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- == Footer == -->
+    <footer class="footer">
+      <div class="foonter-texts">
+        <h3>
+          &copy; <span id="year">YEAR</span> Disney+ Hotstar All Rights Reserved
+        </h3>
+        <div class="footer-links">
+          <a href="#">Term Of use</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">FAQ</a>
+        </div>
+      </div>
+
+      <div class="footer-images">
+        <a href="#">
+          <img
+            src="./assets/images/google-playstore.webp"
+            alt="google-play-logo"
+            class="down"
+          />
+        </a>
+        <a href="#">
+          <img
+            src="./assets/images/ios-appstore.webp"
+            alt="ios-app-store-logo"
+            class="down"
+          />
+        </a>
+      </div>
+    </footer>
+
+    <!-- === Script === -->
+    <script src="./assets/js/data.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
